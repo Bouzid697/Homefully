@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Homefully</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #152f3f;
+      color: white;
+    }
+    header {
+      background-color: #2c3e50;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+    }
+    .logo {
+      width: 80px;
+      height: auto;
+    }
+    .header-text {
+      text-align: left;
+    }
+    nav {
+      background-color: #34495e;
+      display: flex;
+      justify-content: center;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+    }
+    nav ul li {
+      position: relative;
+    }
+    nav ul li a {
+      display: block;
+      padding: 15px 20px;
+      color: white;
+      text-decoration: none;
+    }
+    nav ul li:hover {
+      background-color: #1abc9c;
+    }
+    nav ul li ul {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: #2c3e50;
+    }
+    nav ul li:hover ul {
+      display: block;
+    }
+    nav ul li ul li a {
+      padding: 10px 20px;
+    }
+    .content {
+      padding: 40px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    h1, h2 {
+      color: #ffffff;
+    }
+    p {
+      line-height: 1.6;
+    }
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <a href="index.html">
+  <img src="logo.png" alt="Homefully Logo" class="logo">
+</a>
+  <div class="header-text">
+    <h1>Homefully</h1>
+    <p>From Street to Stability</p>
+  </div>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="#">Take Action</a>
+      <ul>
+        <li><a href="donate.html">Donate</a></li>
+        <li><a href="volunteer.html">Volunteer</a></li>
+      </ul>
+    </li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<section class="content">
+  <h1>About Us</h1>
+  <p>Homefully is more than a campaign — it’s a movement of compassion, action, and hope. We are a team of dedicated volunteers, social workers, and everyday people who believe that no one should be left behind.</p>
+
+  <img src="maraude.jpeg"
+       alt="Community helping a homeless person"
+       style="width: 100%; max-width: 800px; display: block; margin: 30px auto; border-radius: 10px;">
+
+  <h2>Our Vision</h2>
+  <p>We dream of a world where everyone has a place to call home. Where stability, dignity, and safety are not privileges — but rights.</p>
+
+  <h2>Our Approach</h2>
+  <ul style="text-align: left; max-width: 800px; margin: 0 auto;">
+    <li>🔹 Long-term housing solutions tailored to individual needs</li>
+    <li>🔹 Daily access to food, hygiene, and essentials</li>
+    <li>🔹 Social and professional reintegration workshops</li>
+    <li>🔹 Emotional and psychological support</li>
+    <li>🔹 Advocacy and community awareness</li>
+  </ul>
+
+  <h2 style="margin-top: 40px;">Join the Mission</h2>
+  <p>It starts with one step — one meal, one gesture, one helping hand. Be a part of the solution.</p>
+
+  <a href="volunteer.html"
+     style="display: inline-block; margin: 15px 10px; padding: 12px 25px; background-color: #1abc9c; color: white; border-radius: 5px; text-decoration: none; font-weight: bold;">
+    Become a Volunteer
+  </a>
+
+  <a href="donate.html"
+     style="display: inline-block; margin: 15px 10px; padding: 12px 25px; background-color: transparent; color: #1abc9c; border: 2px solid #1abc9c; border-radius: 5px; text-decoration: none; font-weight: bold;">
+    Support Our Work
+  </a>
+</section>
+
+
+<footer>
+  <p>&copy; 2025 Homefully. All rights reserved.</p>
+  <p>IG: <a href="https://www.instagram.com/homefully1/" target="_blank" style="color: #1abc9c;">@homefully1</a></p>
+
+</footer>
+
+</body>
+</html>
